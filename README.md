@@ -1,1 +1,1 @@
-This repository is for the Taso Reearch company website.
+This repository is for the Taso Research company website.
