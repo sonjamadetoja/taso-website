@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #37327a;
+  --color-secondary: #8d2a8a;
+  --color-accent: #e90c8e;
+  --color-muted: #49436A;
+  --color-light: #f9edfa;
+}
+
+
+@layer utilities {
+  .bg-primary { background-color: var(--color-primary); }
+  .bg-secondary { background-color: var(--color-secondary); }
+  .bg-accent { background-color: var(--color-accent); }
+  .bg-muted { background-color: var(--color-muted); }
+  .bg-light { background-color: var(--color-light); }
+
+  .text-primary { color: var(--color-primary); }
+  .text-secondary { color: var(--color-secondary); }
+  .text-accent { color: var(--color-accent); }
+  .text-muted { color: var(--color-muted); }
+  .text-light { color: var(--color-light); }
+}
+
+@layer base {
+  body {
+    @apply bg-white
+  }
+  h1 { 
+    @apply text-3xl font-bold text-primary mb-4;
+  }
+  h2 {
+    @apply text-2xl font-semibold text-primary mt-4 mb-2;
+  }
+  ul {
+    @apply space-y-2 text-muted mb-4
+  }
+  li {
+    @apply text-base leading-relaxed
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-3 py-1 rounded hover:bg-accent transition;
+  }
+  .paragraph {
+    @apply px-6 my-4 text-muted leading-relaxed text-base max-w-prose;
+  }
+}

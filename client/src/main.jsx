@@ -4,8 +4,8 @@ import App from './App.jsx';
 import Etusivu from './pages/Etusivu.jsx';
 import Palvelut from './pages/Palvelut.jsx';
 import Me from './pages/Me.jsx';
+import '../tailwind.css'
 
-import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <Router>
