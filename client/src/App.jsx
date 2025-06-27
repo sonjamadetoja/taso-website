@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center">
       <header>
-          <img src="/logo.jpg" className="w-96 h-auto" alt="Logo" />
+          <img src="/logo.jpg" className="w-96 h-auto mb-8" alt="Logo" />
           <h1>Taso Research</h1>
-        <nav className="bg-primary text-light px-6 py-4">
+        <nav className="bg-primary text-light px-6 py-2">
           <div className="flex justify-center space-x-6">
             <Link to={"/"} className='nav-link'>Etusivu   </Link>
             <Link to={"/palvelut"} className='nav-link'>Palvelut   </Link>
