@@ -28,7 +28,7 @@
     @apply bg-white
   }
   h1 { 
-    @apply text-3xl font-bold text-primary mb-4;
+    @apply text-3xl font-bold text-primary mb-4 uppercase;
   }
   h2 {
     @apply text-2xl font-semibold text-primary mt-4 mb-2;
