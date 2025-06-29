@@ -1,4 +1,4 @@
-function Palvelut() {
+const Palvelut = () => {
   return (
     <div>
       <h2>Palvelut</h2>

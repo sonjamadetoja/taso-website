@@ -1,4 +1,4 @@
- function Etusivu() {
+ const Etusivu = () => {
   return (
     <div>
       <p className="paragraph">

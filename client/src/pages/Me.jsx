@@ -1,4 +1,4 @@
-function Me() {
+const Me = () => {
   return (
     <div>
       <h2>Meistä</h2>
